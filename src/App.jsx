@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import TodoForm from "./TodoForm.jsx";
-import TodoList from "./TodoList.jsx";
+import TodoForm from "./components/TodoForm.jsx";
+import TodoList from "./components/TodoList.jsx";
 
 // main component
-
 // usestate waar de list in wordt opgeslagen...
+
 function App() {
   const [todos, setTodos] = useState([]);
 
